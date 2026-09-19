@@ -1,0 +1,2 @@
+document.querySelector('.menu-toggle').addEventListener('click',()=>{const n=document.querySelector('.nav');n.style.display=n.style.display==='flex'?'none':'flex';n.style.position='absolute';n.style.top='78px';n.style.right='5vw';n.style.background='#111';n.style.padding='18px';n.style.flexDirection='column';n.style.alignItems='stretch';});
+document.querySelectorAll('[data-placeholder]').forEach(btn=>btn.addEventListener('click',()=>alert('Media placeholder: replace this block with your showreel or selected-work video/audio.')));
